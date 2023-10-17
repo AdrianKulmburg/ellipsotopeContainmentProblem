@@ -35,7 +35,7 @@ end
 
 clf;
 hold on
-plot_vertexSampling = errorbar(N_range, mean_ratio_vertexSampling, mean_ratio_vertexSampling-min_ratio_vertexSampling, max_ratio_vertexSampling - mean_ratio_vertexSampling, 'o', 'color', RPTH_red, 'CapSize', 15);
+plot_vertexSampling = errorbar(N_range, mean_ratio_vertexSampling, mean_ratio_vertexSampling-min_ratio_vertexSampling, max_ratio_vertexSampling - mean_ratio_vertexSampling, 'o', 'color', RPTH_red, 'CapSize', 12);
 plot_halfspaceSampling = errorbar(N_range, mean_ratio_halfspaceSampling, mean_ratio_halfspaceSampling - min_ratio_halfspaceSampling, max_ratio_halfspaceSampling - mean_ratio_halfspaceSampling, 'x', 'color', RPTH_blue);
 
 plot_epsilons = plot(N_range, 1 - epsilons, 'color', RPTH_yellow);

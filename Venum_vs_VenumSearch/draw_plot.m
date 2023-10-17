@@ -27,7 +27,7 @@ end
 
 clf;
 hold on
-plot_venum = errorbar(rho, t_venum_mean_case, t_venum_mean_case - t_venum_best_case, t_venum_worst_case - t_venum_mean_case, 'o', 'color', RPTH_red, 'CapSize', 15);
+plot_venum = errorbar(rho, t_venum_mean_case, t_venum_mean_case - t_venum_best_case, t_venum_worst_case - t_venum_mean_case, 'o', 'color', RPTH_red, 'CapSize', 12);
 plot_venumSearch = errorbar(rho, t_venumSearch_mean_case, t_venumSearch_mean_case - t_venumSearch_best_case, t_venumSearch_worst_case - t_venumSearch_mean_case, 'x', 'color', RPTH_blue);
 
 
